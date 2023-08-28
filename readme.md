@@ -9,13 +9,13 @@ Alternatively, you can clone the project to make more in-depth changes to the se
 
 ## Screenshots
 
-| ![Matchmaking Server Running](Screenshots/MatchmakingServerRunning.png) |
-|:----------------------------------------------------------------------------------------------------:| 
-|                                     *Matchmaking Server Running*                                     |
+| ![Matchmaking Server Running](Screenshots/MatchmakingServerRunning.PNG?raw=true "Matchmaking Server Running") |
+|:-------------------------------------------------------------------------------------------------------------:| 
+|                                         *Matchmaking Server Running*                                          |
 
-| ![UDP Server Running](Screenshots/UDPServerRunning.png) |
-|:----------------------------------------------------------------------------:| 
-|                     *UDP Server Running (Gamer Server)*                      |
+| ![UDP Server Running](Screenshots/UDPServerRunning.PNG?raw=true "UDP Server Running") |
+|:-------------------------------------------------------------------------------------:| 
+|                          *UDP Server Running (Gamer Server)*                          |
 
 ## Server Configurations
 For every server, you will have these common settings:
