@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>disable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>Images\Pepega.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Images\ok.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Images\Pepega.ico" />
+      <EmbeddedResource Include="Images\Pepega.ico" />
+      <None Remove="Images\WS.png" />
+      <None Remove="Images\Mediamodifier-Design.svg" />
+      <None Remove="Images\WS2.png" />
+      <None Remove="Images\UDP.png" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Resource Include="Images\UDP.png" />
+      <Resource Include="Images\WS.png" />
+    </ItemGroup>
+
+
+
+    <ItemGroup>
+      <PackageReference Include="Fleck" Version="1.2.0" />
+
+
+
+    </ItemGroup>
+
+
+
+
+
+
+
+
+</Project>
